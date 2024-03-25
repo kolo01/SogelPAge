@@ -7,11 +7,11 @@ function NavbarWeb() {
    <>
    <Center>
    <Flex  maxW={'5xl'} justifyContent={"space-between"} width={"90%"} mx={"5%"}>
-    <Image src='./bgSans.png' alt='Logo SOGEL'  height={"70px"}/>
+    <Image src='./sogelLogo.png' alt='Logo SOGEL'  height={"70px"}/>
     <Menu >
-        <MenuButton   display={"flex"}  as={"a"} href='#services' _hover={{
+        <MenuButton    display={"flex"}  as={"a"} href='#services' _hover={{
             textDecor:"none"
-        }} ><Flex mt={5}>Services <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/chevron-down.png" alt="chevron-down"/></Flex></MenuButton>
+        }} ><Flex mt={5}>Services <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/chevron-down.png" alt="chevron-down" /></Flex></MenuButton>
           <MenuList>
     <MenuItem as={"a"} href='#services' _hover={{
             textDecor:"none"
