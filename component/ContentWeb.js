@@ -140,12 +140,12 @@ Qui officia consequat officia laboris ut deserunt sunt dolor cupidatat. Duis nos
           </Box>
         </Flex>
       </Stack>
-      <Flex id='services' >
-        <Stack>
-        <Text width={"250px"} fontWeight={"700"} fontSize={["15px","15px","15px","20px","20px"]}> - Formation :</Text>
+      <Box id='services' >
+        <Stack  mt={5}>
+        <Heading color={'#7C1313'}  fontWeight={"700"} > Formation </Heading>
         </Stack>
         <Stack>
-       <SimpleGrid columns={2} spacing={10}>
+       <SimpleGrid fontSize={'20px'} columns={[1,1,1,2,2]} spacing={10}>
               <Box id='office'>
                 <Center>
                   <Image src='./365.png' alt='pack office' width={'100'} height={"100"}/>
@@ -205,14 +205,14 @@ Qui officia consequat officia laboris ut deserunt sunt dolor cupidatat. Duis nos
        </SimpleGrid>
         </Stack>
         
-      </Flex> 
+      </Box> 
 
 
-      <Flex my={5} id='web' >
-        <Stack>
-        <Text width={"250px"} fontWeight={"700"} fontSize={["15px","15px","15px","20px","20px"]}> -Developpement Web :</Text>
+      <Box my={5} id='web' >
+        <Stack my={5}>
+        <Heading color={'#7C1313'}  fontWeight={"700"} > Developpement Web </Heading>
         </Stack>
-        <Stack>
+        <Stack fontSize={'20px'}>
           <Text>
               Profiter de nos experts ayants déjà réalisé des projets professionnels a moindre coût et sans avoir à vous prendre la tête  qu{"'"}en il s{"'"}agit de :</Text>
              <Box ml={10}>
@@ -225,15 +225,15 @@ Qui officia consequat officia laboris ut deserunt sunt dolor cupidatat. Duis nos
               <Text>Nos Experts utilisent les languages de programmes assez demandés tels que : <b>Reactjs, Python, Java, Nextjs, Laravel, Symfony</b></Text>
         </Stack>
         
-      </Flex> 
+      </Box> 
 
 
 
-      <Flex  id='mobile'>
-        <Stack>
-        <Text width={"250px"} fontWeight={"700"} fontSize={["15px","15px","15px","20px","20px"]}> -Developpement Mobile :</Text>
+      <Box  id='mobile'>
+        <Stack my={5}>
+        <Heading color={'#7C1313'}  fontWeight={"700"} > Developpement Mobile </Heading>
         </Stack>
-        <Stack>
+        <Stack fontSize={'20px'}>
           <Text>
               Profiter de nos experts ayants déjà réalisé des projets professionnels a moindre coût et sans avoir à vous prendre la tête  qu{"'"}en il s{"'"}agit de :</Text>
              <Box ml={10}>
@@ -246,7 +246,7 @@ Qui officia consequat officia laboris ut deserunt sunt dolor cupidatat. Duis nos
               <Text>Nos Experts utilisent les languages de programmes assez demandés tels que : <b>Kotlin, XML, Java</b></Text>
         </Stack>
         
-      </Flex> 
+      </Box> 
 
 
 

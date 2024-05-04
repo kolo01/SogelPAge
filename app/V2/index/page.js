@@ -23,7 +23,7 @@ function Index() {
                 <Text>Contact</Text>
                 </Flex>
             </Flex>
-            <Button>Prendre rendez-vous</Button>
+            <Button className='button-63' role='button'>Prendre rendez-vous</Button>
         </Flex>
 
 
